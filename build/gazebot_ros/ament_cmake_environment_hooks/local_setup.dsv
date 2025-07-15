@@ -1,0 +1,2 @@
+source;share/gazebot_ros/environment/ament_prefix_path.sh
+source;share/gazebot_ros/environment/path.sh

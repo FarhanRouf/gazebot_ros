@@ -1,0 +1,64 @@
+[0.014s] Invoking command in '/home/faravifarhan/dev_ws/src/gazebot_ros/build/gazebot_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faravifarhan/ros2_ws/install/my_robot_controller:/opt/ros/jazzy /usr/bin/cmake /home/faravifarhan/dev_ws/src/gazebot_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros
+[0.332s] -- The C compiler identification is GNU 13.3.0
+[1.197s] -- The CXX compiler identification is GNU 13.3.0
+[1.953s] -- Detecting C compiler ABI info
+[2.233s] -- Detecting C compiler ABI info - done
+[2.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.246s] -- Detecting C compile features
+[2.247s] -- Detecting C compile features - done
+[2.371s] -- Detecting CXX compiler ABI info
+[2.681s] -- Detecting CXX compiler ABI info - done
+[2.691s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.691s] -- Detecting CXX compile features
+[2.692s] -- Detecting CXX compile features - done
+[2.709s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.869s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.969s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.049s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.280s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.297s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.298s] -- Configured cppcheck include dirs: 
+[3.298s] -- Configured cppcheck exclude dirs and/or files: 
+[3.308s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.309s] -- Configured cpplint exclude dirs and/or files: 
+[3.312s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.313s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.316s] -- Added test 'lint_cmake' to check CMake code style
+[3.320s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.330s] -- Added test 'uncrustify' to check C / C++ code style
+[3.331s] -- Configured uncrustify additional arguments: 
+[3.334s] -- Added test 'xmllint' to check XML markup files
+[3.339s] -- Configuring done (3.3s)
+[3.347s] -- Generating done (0.0s)
+[3.352s] -- Build files have been written to: /home/faravifarhan/dev_ws/src/gazebot_ros/build/gazebot_ros
+[3.361s] Invoked command in '/home/faravifarhan/dev_ws/src/gazebot_ros/build/gazebot_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faravifarhan/ros2_ws/install/my_robot_controller:/opt/ros/jazzy /usr/bin/cmake /home/faravifarhan/dev_ws/src/gazebot_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros
+[3.364s] Invoking command in '/home/faravifarhan/dev_ws/src/gazebot_ros/build/gazebot_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faravifarhan/ros2_ws/install/my_robot_controller:/opt/ros/jazzy /usr/bin/cmake --build /home/faravifarhan/dev_ws/src/gazebot_ros/build/gazebot_ros -- -j12 -l12
+[3.418s] Invoked command in '/home/faravifarhan/dev_ws/src/gazebot_ros/build/gazebot_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faravifarhan/ros2_ws/install/my_robot_controller:/opt/ros/jazzy /usr/bin/cmake --build /home/faravifarhan/dev_ws/src/gazebot_ros/build/gazebot_ros -- -j12 -l12
+[3.434s] Invoking command in '/home/faravifarhan/dev_ws/src/gazebot_ros/build/gazebot_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faravifarhan/ros2_ws/install/my_robot_controller:/opt/ros/jazzy /usr/bin/cmake --install /home/faravifarhan/dev_ws/src/gazebot_ros/build/gazebot_ros
+[3.445s] -- Install configuration: ""
+[3.447s] -- Execute custom install script
+[3.450s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/config/empty.yaml
+[3.461s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/config/view_bot.rviz
+[3.473s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/description/gazebo_control.xacro
+[3.483s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/description/inertial_macros.xacro
+[3.493s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/description/robot.urdf.xacro
+[3.504s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/description/robot_core.xacro
+[3.515s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/launch/launch_sim.launch.py
+[3.528s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/launch/rsp.launch.py
+[3.540s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/worlds/empty.world
+[3.550s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/ament_index/resource_index/package_run_dependencies/gazebot_ros
+[3.563s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/ament_index/resource_index/parent_prefix_path/gazebot_ros
+[3.577s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/environment/ament_prefix_path.sh
+[3.588s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/environment/ament_prefix_path.dsv
+[3.600s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/environment/path.sh
+[3.609s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/environment/path.dsv
+[3.617s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/local_setup.bash
+[3.626s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/local_setup.sh
+[3.635s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/local_setup.zsh
+[3.643s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/local_setup.dsv
+[3.652s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/package.dsv
+[3.661s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/ament_index/resource_index/packages/gazebot_ros
+[3.673s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/cmake/gazebot_rosConfig.cmake
+[3.682s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/cmake/gazebot_rosConfig-version.cmake
+[3.692s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/package.xml
+[3.702s] Invoked command in '/home/faravifarhan/dev_ws/src/gazebot_ros/build/gazebot_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faravifarhan/ros2_ws/install/my_robot_controller:/opt/ros/jazzy /usr/bin/cmake --install /home/faravifarhan/dev_ws/src/gazebot_ros/build/gazebot_ros

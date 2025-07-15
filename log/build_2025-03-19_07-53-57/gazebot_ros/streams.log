@@ -1,0 +1,30 @@
+[0.014s] Invoking command in '/home/faravifarhan/dev_ws/src/gazebot_ros/build/gazebot_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faravifarhan/ros2_ws/install/my_robot_controller:/opt/ros/jazzy /usr/bin/cmake --build /home/faravifarhan/dev_ws/src/gazebot_ros/build/gazebot_ros -- -j12 -l12
+[0.048s] Invoked command in '/home/faravifarhan/dev_ws/src/gazebot_ros/build/gazebot_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faravifarhan/ros2_ws/install/my_robot_controller:/opt/ros/jazzy /usr/bin/cmake --build /home/faravifarhan/dev_ws/src/gazebot_ros/build/gazebot_ros -- -j12 -l12
+[0.058s] Invoking command in '/home/faravifarhan/dev_ws/src/gazebot_ros/build/gazebot_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faravifarhan/ros2_ws/install/my_robot_controller:/opt/ros/jazzy /usr/bin/cmake --install /home/faravifarhan/dev_ws/src/gazebot_ros/build/gazebot_ros
+[0.066s] -- Install configuration: ""
+[0.067s] -- Execute custom install script
+[0.067s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/config/empty.yaml
+[0.067s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/config/view_bot.rviz
+[0.067s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/description/gazebo_control.xacro
+[0.067s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/description/inertial_macros.xacro
+[0.068s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/description/robot.urdf.xacro
+[0.068s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/description/robot_core.xacro
+[0.068s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/launch/launch_sim.launch.py
+[0.068s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/launch/rsp.launch.py
+[0.069s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/worlds/empty.world
+[0.069s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/ament_index/resource_index/package_run_dependencies/gazebot_ros
+[0.069s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/ament_index/resource_index/parent_prefix_path/gazebot_ros
+[0.069s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/environment/ament_prefix_path.sh
+[0.069s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/environment/ament_prefix_path.dsv
+[0.070s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/environment/path.sh
+[0.070s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/environment/path.dsv
+[0.070s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/local_setup.bash
+[0.071s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/local_setup.sh
+[0.071s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/local_setup.zsh
+[0.071s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/local_setup.dsv
+[0.071s] -- Symlinking: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/package.dsv
+[0.079s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/ament_index/resource_index/packages/gazebot_ros
+[0.079s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/cmake/gazebot_rosConfig.cmake
+[0.080s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/cmake/gazebot_rosConfig-version.cmake
+[0.080s] -- Up-to-date symlink: /home/faravifarhan/dev_ws/src/gazebot_ros/install/gazebot_ros/share/gazebot_ros/package.xml
+[0.083s] Invoked command in '/home/faravifarhan/dev_ws/src/gazebot_ros/build/gazebot_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faravifarhan/ros2_ws/install/my_robot_controller:/opt/ros/jazzy /usr/bin/cmake --install /home/faravifarhan/dev_ws/src/gazebot_ros/build/gazebot_ros

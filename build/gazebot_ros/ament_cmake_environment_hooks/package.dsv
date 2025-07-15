@@ -1,0 +1,4 @@
+source;share/gazebot_ros/local_setup.bash
+source;share/gazebot_ros/local_setup.dsv
+source;share/gazebot_ros/local_setup.sh
+source;share/gazebot_ros/local_setup.zsh
