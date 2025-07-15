@@ -1,1 +1,0 @@
-/home/faravifarhan/dev_ws/src/gazebot_ros/launch/rsp.launch.py
