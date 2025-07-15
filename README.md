@@ -10,11 +10,14 @@ Note that each directory currently has at least one file in it to ensure that gi
 
 STEP 1:
 colcon build --symlink-install
+
 STEP 2:
 source install/setup.bash
+
 STEP 3:
 ros2 launch gazebot_ros launch_sim.launch.py
 Gazebo opens and you can use the teleop on Gazebo or do the next step to control it from terminal
+
 STEP 4:
 ros2 run teleop_twist_keyboard teleop_twist_keyboard cmd_vel:=/diff_cont/cmd_vel_unstamped
 
