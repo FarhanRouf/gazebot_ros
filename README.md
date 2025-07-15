@@ -18,8 +18,14 @@ STEP 3:
 ros2 launch gazebot_ros launch_sim.launch.py
 Gazebo opens and you can use the teleop on Gazebo or do the next step to control it from terminal
 
+
+
+
+
 STEP 4:
 ros2 run teleop_twist_keyboard teleop_twist_keyboard cmd_vel:=/diff_cont/cmd_vel_unstamped
+
+https://github.com/user-attachments/assets/a667c44e-1943-4ac9-a5e3-28f7da8179be
 
 EXTRA:
 You can also run rviz2 to see how ROS2 is seeing these topics and joint states.
