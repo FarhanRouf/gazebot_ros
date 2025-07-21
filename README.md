@@ -21,6 +21,9 @@ Gazebo opens and you can use the teleop on Gazebo or do the next step to control
 To visualize the lidar, search Visualize Lidar and click the refresh so it autoselects scan.
 In RViz, add laserscan and choose the scan topic.
 
+LIDAR DEMO:
+<img width="1002" height="657" alt="GZ_Lidar" src="https://github.com/user-attachments/assets/61026719-2055-4c73-b0f5-20ee1d3ff83c" />
+<img width="621" height="435" alt="RVIZ_Lidar" src="https://github.com/user-attachments/assets/cc5d60a8-a3bb-416f-a6cc-25eb00518398" />
 
 
 STEP 4:
