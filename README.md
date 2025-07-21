@@ -18,7 +18,8 @@ STEP 3:
 ros2 launch gazebot_ros launch_sim.launch.py
 Gazebo opens and you can use the teleop on Gazebo or do the next step to control it from terminal
 
-
+To visualize the lidar, search Visualize Lidar and click the refresh so it autoselects scan.
+In RViz, add laserscan and choose the scan topic.
 
 
 
