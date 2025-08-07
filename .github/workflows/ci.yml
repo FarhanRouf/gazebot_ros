@@ -1,19 +1,30 @@
-name: CI (ROS 2 build & test)
+name: Build (ROS 2 Jazzy)
+
 on:
-  push: { branches: [ main ] }
+  push:
+    branches: [ main ]
   pull_request:
 
 jobs:
-  build-test:
-    runs-on: ubuntu-latest
-    container:
-      image: rostooling/setup-ros-docker:ubuntu-noble-latest
+  build:
+    runs-on: ubuntu-24.04  # Jazzy is tier-1 on Ubuntu 24.04
     steps:
       - uses: actions/checkout@v4
-      - name: Build & Test (ROS 2 Jazzy)
-        uses: ros-tooling/action-ros-ci@v0.4
+
+      # Install ROS 2 Jazzy
+      - uses: ros-tooling/setup-ros@v0.7
         with:
-          target-ros2-distro: jazzy
-          package-name: gazebot_ros
-          colcon-defaults: |
-            { "build": { "symlink-install": true } }
+          required-ros-distributions: jazzy
+
+      # Install package dependencies
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          rosdep update
+          rosdep install --from-paths src --ignore-src -r -y
+
+      # Build the workspace
+      - name: Build
+        run: |
+          source /opt/ros/jazzy/setup.bash
+          colcon build --symlink-install
