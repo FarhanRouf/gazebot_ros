@@ -21,7 +21,7 @@ jobs:
         run: |
           sudo apt-get update
           rosdep update
-          rosdep install --from-paths src --ignore-src -r -y
+          rosdep install --from-paths . --ignore-src -r -y
 
       # Build the workspace
       - name: Build
