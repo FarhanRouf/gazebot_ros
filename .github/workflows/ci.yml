@@ -17,9 +17,3 @@ jobs:
           package-name: gazebot_ros
           colcon-defaults: |
             { "build": { "symlink-install": true } }
-      - name: Upload colcon logs on failure
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: colcon-logs
-          path: ${{ steps.build-test.outputs.ros-workspace-directory-name }}/log
